@@ -1,0 +1,115 @@
+Discussion
+----------
+
+1. Which would be the most efficient data structure for a data set with the
+   following requirements:
+
+  - frequently removing and adding items to the beginning of the data structure
+    
+
+  - frequently removing and adding items to the end of the data structure
+  
+
+
+  - rarely indexing and searching
+    Doubly linked list
+
+  A. A Python list B. Singly linked list C. Doubly linked list
+
+  Explain your answer.
+
+
+
+
+
+
+
+
+2. Which would be the most efficient data structure for a data set with the
+   following requirements:
+
+  - order is unimportant
+     
+
+  -frequently adding and removing items
+    
+
+  - frequently looking up items
+     A dictionary
+
+  A. A Python list  B. A Dictionary  C. Deque  D. Binary Search Tree
+
+  Explain your answer.
+
+
+
+
+
+
+
+
+3. Explain why looking up, adding elements, and removing elements from a 
+   dictionary or hash map are all O(1) operations.
+
+    The key are hashed and used as a memory address where the values are saved
+
+
+
+
+
+
+4. Explain why removing elements from or adding elements to an arbitrary
+   location in a Python list are O(n) operations.
+
+    Python lists are contiguous in memory. When an item is removed or added to the
+  middle of the list, all the subsequent items in the list must be re-indexed.
+
+
+
+
+5. What is the correct runtime for:
+
+  - Bubble Sort?
+      n^2
+  - Quicksort?
+      nlogn
+  - Merge Sort?
+    nlog n
+  - Insertion Sort?
+    n^2
+
+6. What is the difference between a tree and a graph?
+
+A tree is a restricted version of graph where there are no loops or cycles.
+
+
+
+
+
+7. Using the Python implementation of Quicksort from the instructions:
+
+  Given the list [8, 4, 1, 6, 5, 2, 7, 3]:
+  When this function is initially called, what are the values of:
+
+    - lst - [8, 4, 1, 6, 5, 2, 7, 3]
+
+    - pivot - 5
+
+    - lo - [4, 1, 2, 3]
+
+    - hi - [8, 6, 7]
+
+
+
+
+  When the quicksort is first called recursively on the `lo` list, what are the
+  values of:
+
+  - lst - [4, 1, 2, 3]
+
+  - pivot - 2
+
+  - lo - [1]
+
+  - hi - [4, 3]
+
